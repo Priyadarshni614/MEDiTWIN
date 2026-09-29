@@ -1,0 +1,6 @@
+{
+  "name": "MEDiTWIN AI",
+  "description": "Personalized Medication Safety & Polypharmacy Intelligence platform designed to help patients and healthcare professionals understand medication-related risks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

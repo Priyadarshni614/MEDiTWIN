@@ -1,0 +1,709 @@
+[
+  {
+    "token": "24f1254e-5986-46e7-9da8-a57ab6bbfb59",
+    "patientId": "usr_1790082845978_3gdeuda",
+    "patientName": "Angeline Steve S",
+    "hasExplicitConsent": true,
+    "consentedAt": "2026-09-27T07:55:23.752Z",
+    "createdAt": "2026-09-27T07:55:23.752Z",
+    "expiresAt": "2026-09-28T07:55:23.752Z",
+    "status": "REVOKED",
+    "data": {
+      "patientId": "usr_1790082845978_3gdeuda",
+      "fullName": "Angeline Steve S",
+      "age": 20,
+      "gender": "female",
+      "weight": "45 kg",
+      "bloodType": null,
+      "allergies": [
+        "Penicillin"
+      ],
+      "chronicConditions": [
+        "Type 2 Diabetes"
+      ],
+      "emergencyContact": {
+        "name": "Stephen",
+        "relationship": "Father",
+        "phone": "9442755572"
+      },
+      "activeMedications": [
+        {
+          "id": "med_1790486026569_l1tziw",
+          "name": "Amoxicillin + Clavulanic acid",
+          "strength": "500/125 mg",
+          "dosage": "1 tablet",
+          "frequency": "Every 8 hours after food",
+          "route": "Orally",
+          "duration": "7 days",
+          "prescribedBy": "Dr. Nivethitha A",
+          "source": "PRESCRIPTION_OCR"
+        },
+        {
+          "id": "med_1790486026569_93q3yc",
+          "name": "Paracetamol",
+          "strength": "500 mg",
+          "dosage": "1 tablet",
+          "frequency": "Every 6 hours as needed",
+          "route": "Orally",
+          "duration": "Ongoing",
+          "prescribedBy": "Dr. Nivethitha A",
+          "purpose": "Fever",
+          "source": "PRESCRIPTION_OCR"
+        },
+        {
+          "id": "med_1790486026569_9uy6mz",
+          "name": "Levocetirizine",
+          "strength": "5 mg",
+          "dosage": "1 tablet",
+          "frequency": "At bedtime",
+          "route": "Orally",
+          "duration": "5 days",
+          "prescribedBy": "Dr. Nivethitha A",
+          "source": "PRESCRIPTION_OCR"
+        },
+        {
+          "id": "med_1790486026569_lolubd",
+          "name": "Pantoprazole",
+          "strength": "40 mg",
+          "dosage": "1 tablet",
+          "frequency": "Once daily before breakfast",
+          "route": "Orally",
+          "duration": "7 days",
+          "prescribedBy": "Dr. Nivethitha A",
+          "source": "PRESCRIPTION_OCR"
+        },
+        {
+          "id": "med_1790485980442_b32xly",
+          "name": "Amoxicillin + Clavulanic acid",
+          "genericName": "Amoxicillin + Clavulanic acid",
+          "strength": "500/125 mg",
+          "dosage": "1 tablet",
+          "frequency": "every 8 hours with food",
+          "route": "orally",
+          "duration": "7 days",
+          "prescribedBy": "Dr. Robert Smith, MD",
+          "source": "PRESCRIPTION_OCR"
+        },
+        {
+          "id": "med_1790485980442_098px8",
+          "name": "Paracetamol (Acetaminophen)",
+          "genericName": "Paracetamol (Acetaminophen)",
+          "strength": "500 mg",
+          "dosage": "1 tablet",
+          "frequency": "every 4 hours as needed",
+          "route": "orally",
+          "duration": "Ongoing",
+          "prescribedBy": "Dr. Robert Smith, MD",
+          "purpose": "fever or pain",
+          "source": "PRESCRIPTION_OCR"
+        },
+        {
+          "id": "med_1790084917600_w00t64",
+          "name": "Azithromycin",
+          "genericName": "Azithromycin",
+          "brandName": "Azithral",
+          "strength": "500mg",
+          "dosage": "1 tablet",
+          "frequency": "Once daily",
+          "route": "Oral",
+          "duration": "3 days",
+          "prescribedBy": "Dr.Nivethitha,MD",
+          "purpose": "Bacterial Infection",
+          "source": "MANUAL"
+        }
+      ],
+      "lastSafetyAnalysisDate": "2026-09-27T07:51:31.237Z",
+      "safetyScore": 25,
+      "safetyRating": "ELEVATED_PRECAUTION",
+      "importantVerifiedFindings": [
+        {
+          "id": "allergy_allergy_penicillin",
+          "title": "Documented Allergy Alert: Amoxicillin + Clavulanic acid & Amoxicillin + Clavulanic acid vs. Penicillin-Class Antibiotics",
+          "category": "ALLERGY_CONTRAINDICATION",
+          "severity": "contraindicated",
+          "involvedMedications": [
+            "Amoxicillin + Clavulanic acid",
+            "Amoxicillin + Clavulanic acid"
+          ],
+          "explanation": "Patient profile documents an allergy to \"Penicillin\". Active medications (\"Amoxicillin + Clavulanic acid\", \"Amoxicillin + Clavulanic acid\") contain or represent verified active ingredient \"amoxicillin, clavulanic acid\" (Beta-Lactam / Penicillin Antibiotics).",
+          "clinicalSignificance": "Direct immunological cross-reactivity triggering IgE-mediated anaphylaxis, angioedema, urticaria, or severe cutaneous adverse reactions.",
+          "sourceReference": "American Academy of Allergy, Asthma & Immunology (AAAAI) Drug Allergy Practice Parameter; FDA Amoxicillin Contraindications",
+          "recommendationNote": "Do not administer or ingest until reviewed with the prescribing physician or allergist."
+        },
+        {
+          "id": "dup_ingredient_amoxicillin_clavulanic_acid_med_1790485980442_b32xly__med_1790486026569_l1tziw",
+          "title": "Duplicate Active Ingredient: AMOXICILLIN, CLAVULANIC ACID",
+          "category": "DUPLICATE_THERAPY",
+          "severity": "high",
+          "involvedMedications": [
+            "Amoxicillin + Clavulanic acid",
+            "Amoxicillin + Clavulanic acid"
+          ],
+          "explanation": "Patient has two distinct active medication entries (\"Amoxicillin + Clavulanic acid\" [ID: med_1790486026569_l1tziw] and \"Amoxicillin + Clavulanic acid\" [ID: med_1790485980442_b32xly]) that contain verified active ingredient \"amoxicillin, clavulanic acid\".",
+          "clinicalSignificance": "Simultaneous consumption of identical pharmacological ingredients can lead to accidental dose doubling, excessive peak plasma levels, and enhanced toxic adverse effects.",
+          "sourceReference": "FDA Safety Guidelines on Duplicate Active Ingredients; ISMP Medication Safety Alert",
+          "recommendationNote": "Confirm with prescribing doctor whether one medication is intended to replace or supersede the other."
+        },
+        {
+          "id": "dup_ingredient_acetaminophen_med_1790485980442_098px8__med_1790486026569_93q3yc",
+          "title": "Duplicate Active Ingredient: ACETAMINOPHEN",
+          "category": "DUPLICATE_THERAPY",
+          "severity": "high",
+          "involvedMedications": [
+            "Paracetamol",
+            "Paracetamol (Acetaminophen)"
+          ],
+          "explanation": "Patient has two distinct active medication entries (\"Paracetamol\" [ID: med_1790486026569_93q3yc] and \"Paracetamol (Acetaminophen)\" [ID: med_1790485980442_098px8]) that contain verified active ingredient \"acetaminophen\".",
+          "clinicalSignificance": "Simultaneous consumption of identical pharmacological ingredients can lead to accidental dose doubling, excessive peak plasma levels, and enhanced toxic adverse effects.",
+          "sourceReference": "FDA Safety Guidelines on Duplicate Active Ingredients; ISMP Medication Safety Alert",
+          "recommendationNote": "Confirm with prescribing doctor whether one medication is intended to replace or supersede the other."
+        }
+      ],
+      "disclaimer": "This Emergency Medication Passport is generated solely for informational reference and emergency clinical awareness. It does not constitute a prescription, medical order, or clinical recommendation. Healthcare providers must independently evaluate all medications, dosages, and clinical history prior to administering treatment.",
+      "generatedAt": "2026-09-27T07:55:23.577Z"
+    },
+    "revokedAt": "2026-09-27T07:55:27.390Z"
+  },
+  {
+    "token": "64c6ee30-3133-4137-bd64-76b8f9e2f81a",
+    "patientId": "usr_1790082845978_3gdeuda",
+    "patientName": "Angeline Steve S",
+    "hasExplicitConsent": true,
+    "consentedAt": "2026-09-27T07:55:31.031Z",
+    "createdAt": "2026-09-27T07:55:31.031Z",
+    "expiresAt": "2026-09-28T07:55:31.031Z",
+    "status": "ACTIVE",
+    "data": {
+      "patientId": "usr_1790082845978_3gdeuda",
+      "fullName": "Angeline Steve S",
+      "age": 20,
+      "gender": "female",
+      "weight": "45 kg",
+      "bloodType": null,
+      "allergies": [
+        "Penicillin"
+      ],
+      "chronicConditions": [
+        "Type 2 Diabetes"
+      ],
+      "emergencyContact": {
+        "name": "Stephen",
+        "relationship": "Father",
+        "phone": "9442755572"
+      },
+      "activeMedications": [
+        {
+          "id": "med_1790486026569_l1tziw",
+          "name": "Amoxicillin + Clavulanic acid",
+          "strength": "500/125 mg",
+          "dosage": "1 tablet",
+          "frequency": "Every 8 hours after food",
+          "route": "Orally",
+          "duration": "7 days",
+          "prescribedBy": "Dr. Nivethitha A",
+          "source": "PRESCRIPTION_OCR"
+        },
+        {
+          "id": "med_1790486026569_93q3yc",
+          "name": "Paracetamol",
+          "strength": "500 mg",
+          "dosage": "1 tablet",
+          "frequency": "Every 6 hours as needed",
+          "route": "Orally",
+          "duration": "Ongoing",
+          "prescribedBy": "Dr. Nivethitha A",
+          "purpose": "Fever",
+          "source": "PRESCRIPTION_OCR"
+        },
+        {
+          "id": "med_1790486026569_9uy6mz",
+          "name": "Levocetirizine",
+          "strength": "5 mg",
+          "dosage": "1 tablet",
+          "frequency": "At bedtime",
+          "route": "Orally",
+          "duration": "5 days",
+          "prescribedBy": "Dr. Nivethitha A",
+          "source": "PRESCRIPTION_OCR"
+        },
+        {
+          "id": "med_1790486026569_lolubd",
+          "name": "Pantoprazole",
+          "strength": "40 mg",
+          "dosage": "1 tablet",
+          "frequency": "Once daily before breakfast",
+          "route": "Orally",
+          "duration": "7 days",
+          "prescribedBy": "Dr. Nivethitha A",
+          "source": "PRESCRIPTION_OCR"
+        },
+        {
+          "id": "med_1790485980442_b32xly",
+          "name": "Amoxicillin + Clavulanic acid",
+          "genericName": "Amoxicillin + Clavulanic acid",
+          "strength": "500/125 mg",
+          "dosage": "1 tablet",
+          "frequency": "every 8 hours with food",
+          "route": "orally",
+          "duration": "7 days",
+          "prescribedBy": "Dr. Robert Smith, MD",
+          "source": "PRESCRIPTION_OCR"
+        },
+        {
+          "id": "med_1790485980442_098px8",
+          "name": "Paracetamol (Acetaminophen)",
+          "genericName": "Paracetamol (Acetaminophen)",
+          "strength": "500 mg",
+          "dosage": "1 tablet",
+          "frequency": "every 4 hours as needed",
+          "route": "orally",
+          "duration": "Ongoing",
+          "prescribedBy": "Dr. Robert Smith, MD",
+          "purpose": "fever or pain",
+          "source": "PRESCRIPTION_OCR"
+        },
+        {
+          "id": "med_1790084917600_w00t64",
+          "name": "Azithromycin",
+          "genericName": "Azithromycin",
+          "brandName": "Azithral",
+          "strength": "500mg",
+          "dosage": "1 tablet",
+          "frequency": "Once daily",
+          "route": "Oral",
+          "duration": "3 days",
+          "prescribedBy": "Dr.Nivethitha,MD",
+          "purpose": "Bacterial Infection",
+          "source": "MANUAL"
+        }
+      ],
+      "lastSafetyAnalysisDate": "2026-09-27T07:51:31.237Z",
+      "safetyScore": 25,
+      "safetyRating": "ELEVATED_PRECAUTION",
+      "importantVerifiedFindings": [
+        {
+          "id": "allergy_allergy_penicillin",
+          "title": "Documented Allergy Alert: Amoxicillin + Clavulanic acid & Amoxicillin + Clavulanic acid vs. Penicillin-Class Antibiotics",
+          "category": "ALLERGY_CONTRAINDICATION",
+          "severity": "contraindicated",
+          "involvedMedications": [
+            "Amoxicillin + Clavulanic acid",
+            "Amoxicillin + Clavulanic acid"
+          ],
+          "explanation": "Patient profile documents an allergy to \"Penicillin\". Active medications (\"Amoxicillin + Clavulanic acid\", \"Amoxicillin + Clavulanic acid\") contain or represent verified active ingredient \"amoxicillin, clavulanic acid\" (Beta-Lactam / Penicillin Antibiotics).",
+          "clinicalSignificance": "Direct immunological cross-reactivity triggering IgE-mediated anaphylaxis, angioedema, urticaria, or severe cutaneous adverse reactions.",
+          "sourceReference": "American Academy of Allergy, Asthma & Immunology (AAAAI) Drug Allergy Practice Parameter; FDA Amoxicillin Contraindications",
+          "recommendationNote": "Do not administer or ingest until reviewed with the prescribing physician or allergist."
+        },
+        {
+          "id": "dup_ingredient_amoxicillin_clavulanic_acid_med_1790485980442_b32xly__med_1790486026569_l1tziw",
+          "title": "Duplicate Active Ingredient: AMOXICILLIN, CLAVULANIC ACID",
+          "category": "DUPLICATE_THERAPY",
+          "severity": "high",
+          "involvedMedications": [
+            "Amoxicillin + Clavulanic acid",
+            "Amoxicillin + Clavulanic acid"
+          ],
+          "explanation": "Patient has two distinct active medication entries (\"Amoxicillin + Clavulanic acid\" [ID: med_1790486026569_l1tziw] and \"Amoxicillin + Clavulanic acid\" [ID: med_1790485980442_b32xly]) that contain verified active ingredient \"amoxicillin, clavulanic acid\".",
+          "clinicalSignificance": "Simultaneous consumption of identical pharmacological ingredients can lead to accidental dose doubling, excessive peak plasma levels, and enhanced toxic adverse effects.",
+          "sourceReference": "FDA Safety Guidelines on Duplicate Active Ingredients; ISMP Medication Safety Alert",
+          "recommendationNote": "Confirm with prescribing doctor whether one medication is intended to replace or supersede the other."
+        },
+        {
+          "id": "dup_ingredient_acetaminophen_med_1790485980442_098px8__med_1790486026569_93q3yc",
+          "title": "Duplicate Active Ingredient: ACETAMINOPHEN",
+          "category": "DUPLICATE_THERAPY",
+          "severity": "high",
+          "involvedMedications": [
+            "Paracetamol",
+            "Paracetamol (Acetaminophen)"
+          ],
+          "explanation": "Patient has two distinct active medication entries (\"Paracetamol\" [ID: med_1790486026569_93q3yc] and \"Paracetamol (Acetaminophen)\" [ID: med_1790485980442_098px8]) that contain verified active ingredient \"acetaminophen\".",
+          "clinicalSignificance": "Simultaneous consumption of identical pharmacological ingredients can lead to accidental dose doubling, excessive peak plasma levels, and enhanced toxic adverse effects.",
+          "sourceReference": "FDA Safety Guidelines on Duplicate Active Ingredients; ISMP Medication Safety Alert",
+          "recommendationNote": "Confirm with prescribing doctor whether one medication is intended to replace or supersede the other."
+        }
+      ],
+      "disclaimer": "This Emergency Medication Passport is generated solely for informational reference and emergency clinical awareness. It does not constitute a prescription, medical order, or clinical recommendation. Healthcare providers must independently evaluate all medications, dosages, and clinical history prior to administering treatment.",
+      "generatedAt": "2026-09-27T07:55:31.041Z"
+    }
+  },
+  {
+    "token": "http_test_token_1790495793446",
+    "patientId": "http_patient",
+    "patientName": "Jane Doe HTTP",
+    "hasExplicitConsent": true,
+    "consentedAt": "2026-09-27T07:56:33.539Z",
+    "createdAt": "2026-09-27T07:56:33.539Z",
+    "expiresAt": "2026-09-27T19:56:33.539Z",
+    "status": "REVOKED",
+    "data": {
+      "patientId": "test_patient_123",
+      "fullName": "Jane Doe",
+      "age": 42,
+      "gender": "female",
+      "weight": "65 kg",
+      "bloodType": null,
+      "allergies": [
+        "Penicillin",
+        "Sulfa drugs"
+      ],
+      "chronicConditions": [
+        "Hypertension",
+        "Type 2 Diabetes"
+      ],
+      "emergencyContact": {
+        "name": "John Doe",
+        "relationship": "Spouse",
+        "phone": "555-0199"
+      },
+      "activeMedications": [
+        {
+          "id": "med_1",
+          "name": "Metformin",
+          "genericName": "Metformin HCl",
+          "strength": "500 mg",
+          "dosage": "1 tablet",
+          "frequency": "twice daily",
+          "route": "oral"
+        },
+        {
+          "id": "med_2",
+          "name": "Lisinopril",
+          "strength": "10 mg",
+          "dosage": "1 tablet",
+          "frequency": "once daily",
+          "route": "oral"
+        }
+      ],
+      "lastSafetyAnalysisDate": "2026-09-27T00:00:00.000Z",
+      "safetyScore": 88,
+      "safetyRating": "Good",
+      "importantVerifiedFindings": [
+        {
+          "id": "f_1",
+          "title": "Mild Antihypertensive Interaction",
+          "category": "DRUG_DRUG",
+          "severity": "low",
+          "involvedMedications": [
+            "Metformin",
+            "Lisinopril"
+          ],
+          "explanation": "Routine monitoring advised for blood pressure and glucose balance.",
+          "clinicalSignificance": "Minimal clinical impact under standard therapeutic dosing.",
+          "sourceReference": "Clinical Pharmacology Drug Interaction Compendium",
+          "recommendationNote": "Periodic blood pressure and renal function monitoring."
+        }
+      ],
+      "disclaimer": "Informational clinical reference only.",
+      "generatedAt": "2026-09-27T07:56:33.442Z",
+      "lastUpdated": "2026-09-27T07:56:33.443Z"
+    },
+    "revokedAt": "2026-09-27T07:56:33.560Z"
+  },
+  {
+    "token": "http_test_token_1790495825632",
+    "patientId": "http_patient",
+    "patientName": "Jane Doe HTTP",
+    "hasExplicitConsent": true,
+    "consentedAt": "2026-09-27T07:57:05.723Z",
+    "createdAt": "2026-09-27T07:57:05.723Z",
+    "expiresAt": "2026-09-27T19:57:05.723Z",
+    "status": "REVOKED",
+    "data": {
+      "patientId": "test_patient_123",
+      "fullName": "Jane Doe",
+      "age": 42,
+      "gender": "female",
+      "weight": "65 kg",
+      "bloodType": null,
+      "allergies": [
+        "Penicillin",
+        "Sulfa drugs"
+      ],
+      "chronicConditions": [
+        "Hypertension",
+        "Type 2 Diabetes"
+      ],
+      "emergencyContact": {
+        "name": "John Doe",
+        "relationship": "Spouse",
+        "phone": "555-0199"
+      },
+      "activeMedications": [
+        {
+          "id": "med_1",
+          "name": "Metformin",
+          "genericName": "Metformin HCl",
+          "strength": "500 mg",
+          "dosage": "1 tablet",
+          "frequency": "twice daily",
+          "route": "oral"
+        },
+        {
+          "id": "med_2",
+          "name": "Lisinopril",
+          "strength": "10 mg",
+          "dosage": "1 tablet",
+          "frequency": "once daily",
+          "route": "oral"
+        }
+      ],
+      "lastSafetyAnalysisDate": "2026-09-27T00:00:00.000Z",
+      "safetyScore": 88,
+      "safetyRating": "Good",
+      "importantVerifiedFindings": [
+        {
+          "id": "f_1",
+          "title": "Mild Antihypertensive Interaction",
+          "category": "DRUG_DRUG",
+          "severity": "low",
+          "involvedMedications": [
+            "Metformin",
+            "Lisinopril"
+          ],
+          "explanation": "Routine monitoring advised for blood pressure and glucose balance.",
+          "clinicalSignificance": "Minimal clinical impact under standard therapeutic dosing.",
+          "sourceReference": "Clinical Pharmacology Drug Interaction Compendium",
+          "recommendationNote": "Periodic blood pressure and renal function monitoring."
+        }
+      ],
+      "disclaimer": "Informational clinical reference only.",
+      "generatedAt": "2026-09-27T07:57:05.627Z",
+      "lastUpdated": "2026-09-27T07:57:05.628Z"
+    },
+    "revokedAt": "2026-09-27T07:57:05.744Z"
+  },
+  {
+    "token": "qr_live_angelin_test",
+    "patientId": "demo_patient_angelin",
+    "patientName": "Angelin Steve",
+    "hasExplicitConsent": true,
+    "consentedAt": "2026-09-27T07:57:17.785Z",
+    "createdAt": "2026-09-27T07:57:17.785Z",
+    "expiresAt": "2026-09-28T07:57:17.785Z",
+    "status": "REVOKED",
+    "data": {
+      "patientId": "demo_patient_angelin",
+      "fullName": "Angelin Steve",
+      "age": 34,
+      "gender": "female",
+      "weight": "62 kg",
+      "bloodType": null,
+      "allergies": [
+        "Sulfa Drugs"
+      ],
+      "chronicConditions": [
+        "Type 2 Diabetes",
+        "Hypertension"
+      ],
+      "emergencyContact": {
+        "name": "Joel Steve",
+        "phone": "+1-555-0144",
+        "relationship": "Spouse"
+      },
+      "activeMedications": [
+        {
+          "id": "m1",
+          "name": "Metformin",
+          "strength": "500 mg",
+          "dosage": "1 tablet",
+          "frequency": "twice daily",
+          "route": "oral"
+        }
+      ],
+      "lastSafetyAnalysisDate": "2026-09-27T00:00:00.000Z",
+      "safetyScore": 82,
+      "safetyRating": "Good",
+      "importantVerifiedFindings": [],
+      "disclaimer": "Informational reference only",
+      "generatedAt": "2026-09-27T07:57:00.000Z",
+      "lastUpdated": "2026-09-27T07:57:00.000Z"
+    },
+    "revokedAt": "2026-09-27T07:57:34.842Z"
+  },
+  {
+    "token": "http_test_token_1790496340782",
+    "patientId": "http_patient",
+    "patientName": "Jane Doe HTTP",
+    "hasExplicitConsent": true,
+    "consentedAt": "2026-09-27T08:05:40.881Z",
+    "createdAt": "2026-09-27T08:05:40.881Z",
+    "expiresAt": "2026-09-27T20:05:40.881Z",
+    "status": "REVOKED",
+    "data": {
+      "patientId": "test_patient_123",
+      "fullName": "Jane Doe",
+      "age": 42,
+      "gender": "female",
+      "weight": "65 kg",
+      "bloodType": null,
+      "allergies": [
+        "Penicillin",
+        "Sulfa drugs"
+      ],
+      "chronicConditions": [
+        "Hypertension",
+        "Type 2 Diabetes"
+      ],
+      "emergencyContact": {
+        "name": "John Doe",
+        "relationship": "Spouse",
+        "phone": "555-0199"
+      },
+      "activeMedications": [
+        {
+          "id": "med_1",
+          "name": "Metformin",
+          "genericName": "Metformin HCl",
+          "strength": "500 mg",
+          "dosage": "1 tablet",
+          "frequency": "twice daily",
+          "route": "oral"
+        },
+        {
+          "id": "med_2",
+          "name": "Lisinopril",
+          "strength": "10 mg",
+          "dosage": "1 tablet",
+          "frequency": "once daily",
+          "route": "oral"
+        }
+      ],
+      "lastSafetyAnalysisDate": "2026-09-27T00:00:00.000Z",
+      "safetyScore": 88,
+      "safetyRating": "Good",
+      "importantVerifiedFindings": [
+        {
+          "id": "f_1",
+          "title": "Mild Antihypertensive Interaction",
+          "category": "DRUG_DRUG",
+          "severity": "low",
+          "involvedMedications": [
+            "Metformin",
+            "Lisinopril"
+          ],
+          "explanation": "Routine monitoring advised for blood pressure and glucose balance.",
+          "clinicalSignificance": "Minimal clinical impact under standard therapeutic dosing.",
+          "sourceReference": "Clinical Pharmacology Drug Interaction Compendium",
+          "recommendationNote": "Periodic blood pressure and renal function monitoring."
+        }
+      ],
+      "disclaimer": "Informational clinical reference only.",
+      "generatedAt": "2026-09-27T08:05:40.777Z",
+      "lastUpdated": "2026-09-27T08:05:40.777Z"
+    },
+    "revokedAt": "2026-09-27T08:05:40.899Z"
+  },
+  {
+    "token": "http_test_token_1790496826643",
+    "patientId": "http_patient",
+    "patientName": "Jane Doe HTTP",
+    "hasExplicitConsent": true,
+    "consentedAt": "2026-09-27T08:13:46.738Z",
+    "createdAt": "2026-09-27T08:13:46.738Z",
+    "expiresAt": "2026-09-27T20:13:46.738Z",
+    "status": "REVOKED",
+    "data": {
+      "patientId": "test_patient_123",
+      "fullName": "Jane Doe",
+      "age": 42,
+      "gender": "female",
+      "weight": "65 kg",
+      "bloodType": null,
+      "allergies": [
+        "Penicillin",
+        "Sulfa drugs"
+      ],
+      "chronicConditions": [
+        "Hypertension",
+        "Type 2 Diabetes"
+      ],
+      "emergencyContact": {
+        "name": "John Doe",
+        "relationship": "Spouse",
+        "phone": "555-0199"
+      },
+      "activeMedications": [
+        {
+          "id": "med_1",
+          "name": "Metformin",
+          "genericName": "Metformin HCl",
+          "strength": "500 mg",
+          "dosage": "1 tablet",
+          "frequency": "twice daily",
+          "route": "oral"
+        },
+        {
+          "id": "med_2",
+          "name": "Lisinopril",
+          "strength": "10 mg",
+          "dosage": "1 tablet",
+          "frequency": "once daily",
+          "route": "oral"
+        }
+      ],
+      "lastSafetyAnalysisDate": "2026-09-27T00:00:00.000Z",
+      "safetyScore": 88,
+      "safetyRating": "Good",
+      "importantVerifiedFindings": [
+        {
+          "id": "f_1",
+          "title": "Mild Antihypertensive Interaction",
+          "category": "DRUG_DRUG",
+          "severity": "low",
+          "involvedMedications": [
+            "Metformin",
+            "Lisinopril"
+          ],
+          "explanation": "Routine monitoring advised for blood pressure and glucose balance.",
+          "clinicalSignificance": "Minimal clinical impact under standard therapeutic dosing.",
+          "sourceReference": "Clinical Pharmacology Drug Interaction Compendium",
+          "recommendationNote": "Periodic blood pressure and renal function monitoring."
+        }
+      ],
+      "disclaimer": "Informational clinical reference only.",
+      "generatedAt": "2026-09-27T08:13:46.639Z",
+      "lastUpdated": "2026-09-27T08:13:46.640Z"
+    },
+    "revokedAt": "2026-09-27T08:13:46.761Z"
+  },
+  {
+    "token": "sec_passport_test_1790496831197",
+    "patientId": "test_patient_settings_1790496831195",
+    "patientName": "Sophia Martinez",
+    "hasExplicitConsent": true,
+    "consentedAt": "2026-09-27T08:13:51.197Z",
+    "createdAt": "2026-09-27T08:13:51.197Z",
+    "expiresAt": "2026-09-28T08:13:51.197Z",
+    "status": "REVOKED",
+    "data": {
+      "patientId": "test_patient_settings_1790496831195",
+      "fullName": "Sophia Martinez",
+      "age": 49,
+      "gender": "female",
+      "weight": "67 kg",
+      "bloodType": null,
+      "allergies": [
+        "Penicillin"
+      ],
+      "chronicConditions": [
+        "Hypertension"
+      ],
+      "emergencyContact": {
+        "name": "Carlos",
+        "relationship": "Spouse",
+        "phone": "555-9999"
+      },
+      "activeMedications": [],
+      "lastSafetyAnalysisDate": null,
+      "safetyScore": 90,
+      "safetyRating": "Good",
+      "importantVerifiedFindings": [],
+      "disclaimer": "Informational reference only.",
+      "generatedAt": "2026-09-27T08:13:51.197Z",
+      "lastUpdated": "2026-09-27T08:13:51.197Z"
+    },
+    "revokedAt": "2026-09-27T08:13:51.198Z"
+  }
+]
